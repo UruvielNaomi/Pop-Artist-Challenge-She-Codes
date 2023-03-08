@@ -19,24 +19,41 @@
 </head>
 <body>
     <class class="container">
+      <div class="content">
+      <div class="header">
         <img src="media/logo.png" alt="logo" class="logo">
 
-        <button class="button-header">Home</button>
-        <button class="button-header">About</button>
-        <button class="button-header">Music</button>
-        <button class="button-header">Merch</button>
+        <span class="button-section">
+          <button class="button-header" id="home-button">Home</button>
+          <button class="button-header" id="about-button">About</button>
+          <button class="button-header" id="music-button">Music</button>
+          <button class="button-header" id="merch-button">Merch</button>
+        </span>
 
-        <i class="fa-solid fa-basket-shopping"></i>
-        <i class="fa-solid fa-user"></i>
+        <span class="icon-section">
+          <i class="fa-solid fa-basket-shopping" id="basket-icon"></i>
+          <i class="fa-solid fa-user" id="user-icon"></i>
+        </span>
+      </div>
 
-        <h1 class="header">Home</h1>
-          <p>De Jeugd van Tegenwoordig (The Youth of Today) is a Dutch hip hop and R&B group based in Amsterdam, Netherlands, renowned for their musical approach of irreverent, humorous lyrics and electronic beats. </p>
+      <div class="home-section">
+        <h1 class="section-title">Home</h1>
+          <div class="row">
+            <div class="col-6">
+              <img src="media/pink-group photo.jpeg" alt="group-shot-jeugd" id="group-shot">
+            </div>
+
+            <div class="col-6" id="home-text">
+              <p>De Jeugd van Tegenwoordig (The Youth of Today) is a Dutch hip hop and R&B group based in Amsterdam, Netherlands, renowned for their musical approach of irreverent, humorous lyrics and electronic beats. </p>
           
-          <p>Their humorous style is characterised by their frequent use of word play, lyrical flirting with languages other than Dutch and the propagating of neologisms, such as "Watskeburt?!" (cf. the English wassup).</p>
+              <p>Their humorous style is characterised by their frequent use of word play, lyrical flirting with languages other than Dutch and the propagating of neologisms, such as "Watskeburt?!" (cf. the English wassup).</p>
           
-          <p>The group consists of Vieze Fur (real name Freddie Tratlehner), also known as Vieze Freddie, Faberyayo (real name Pepijn Lanen), also known as P. Dronq or P. Fabergé, and Peppie, and Willie Wartaal (real name Ollicio Locadia), also known as WiWa. When singing about his younger self WiWa also calls himself "Wiwaleantje" (little Wiwalean). Their producer is Bas Bron.</p>
+              <p>The group consists of Vieze Fur (real name Freddie Tratlehner), also known as Vieze Freddie, Faberyayo (real name Pepijn Lanen), also known as P. Dronq or P. Fabergé, and Peppie, and Willie Wartaal (real name Ollicio Locadia), also known as WiWa. When singing about his younger self WiWa also calls himself "Wiwaleantje" (little Wiwalean). Their producer is Bas Bron.</p>
+            </div> 
+          </div>
+      </div>    
 
-        <h2 class="header">About</h2>
+        <h2 class="section-title">About</h2>
           <button class="button-small" id="faber">Faberyayo</button>
           <button class="button-small" id="willie">Willie Wartaal</button>
           <button class="button-small" id="vieze">Vieze Fur</button>
@@ -47,7 +64,7 @@
           
           <p>He writes stories and columns for various magazines and made his debut as an author in 2013 with the short story collection “Sjeumig”. His debut novel, Naamloos (Unnamed), was published in January 2016.</p>
           
-        <h3 class="header">Music</h3>
+        <h3 class="section-title">Music</h3>
           <p>Listen to some of the greatest hits of De Jeugd van Tegenwoordig.</p>
           
           <p>They have won Awards such as the Edison Music Awards,  Dutch MTV Awards, 3FM Awards and the Dutch Pop Prize 2011.</p>
@@ -56,13 +73,14 @@
           
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX004P2xXH1eu?utm_source=generator" width="400" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           
-        <h4 class="header">Merch</h4>
+        <h4 class="section-title">Merch</h4>
         <img src="media/luek shirt_thumbnail.png" alt="luek-shirt" class="merch">
         <img src="media/manon shirt.png" alt="manon-shirt" class="merch">
         <img src="media/machine_vinyl-removebg-preview.png" alt="machine-vinyl" class="merch">
         <img src="media/vinyl_origin.png" alt="lachende-derde-vinyl" class="merch">
 
         <footer>Coded by Naomi Stacia 🎤</footer>
+    </div>
     </class>
 </body>
 </html>

@@ -1,0 +1,81 @@
+body {
+    background: rgb(219,204,227);
+    background: linear-gradient(180deg, rgba(219,204,227,1) 0%, rgba(232,189,199,1) 23%, rgba(216,220,182,1) 100%);
+}
+h1, h2, h3, h4 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    color: #ffff;
+    font-size: 42px;
+    font-weight:900;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin-top: 150px;
+}
+
+.button-header {
+    padding: 4px 35px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(131, 131, 131);
+    font-size: 14px;
+    color: #000000;
+    background: #ffff;
+    margin-right: 65px;
+}
+
+.button-section {
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
+.content {
+    max-width: 1200px;
+    min-width: 850px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.icon-section {
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
+.logo {
+    max-width: 147px;
+    border-radius: 15px;
+}
+
+.header {
+    margin-bottom: 50px;
+    position: fixed;
+    top: 20px;
+}
+.home-section {
+    margin-top: 200px;
+}
+
+#basket-icon, #user-icon {
+    font-size: 20px;
+}
+
+#group-shot {
+    display: block;
+    margin: 0 auto;
+    width: 285px;
+    height: 432px;
+    border: 8px solid rgb(229, 189, 200, 0.6);
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px rgb(189, 163, 170);
+}
+
+#home-text {
+    display: block;
+    margin: 0 auto;
+    color: #ffff;
+    margin-top: 50px;
+}
