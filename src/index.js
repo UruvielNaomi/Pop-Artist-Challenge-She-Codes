@@ -2,7 +2,7 @@ function showFaberInfo() {
     let soloInfo = document.querySelector("#solo-text");
     document.getElementById("solo-portret").src="media/faberyayo.png";
     soloInfo.innerHTML = ` <p>Pepijn Adriaan Lanen (Utrecht, August 4, 1982), stage name Faberyayo, is a Dutch rapper who is part of rap group De Jeugd van Tegenwoordig and pop group Le Le.</p>       
-    <p>He writes stories and columns for various magazines and made his debut as an author in 2013 with the short story collection “Sjeumig”. His debut novel, Naamloos (Unnamed), was published in January 2016.</p>
+    He writes stories and columns for various magazines and made his debut as an author in 2013 with the short story collection “Sjeumig”. His debut novel, Naamloos (Unnamed), was published in January 2016. He is also the host of several different podcasts such as "Yous & Yay: New Emotions" and "Vad3r".</p>
     `
 }
 
@@ -42,3 +42,4 @@ viezeButton.addEventListener("click", showViezeInfo);
 
 let basButton = document.querySelector("#bas");
 basButton.addEventListener("click", showBasInfo);
+
